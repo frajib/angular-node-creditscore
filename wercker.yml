@@ -1,6 +1,7 @@
 box: node:6.10
 build:
   steps:
+   # adding comment
     - script:
         name: A step that executes `npm install` command
         code: npm install  
